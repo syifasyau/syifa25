@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BIODATA SYIFA</title>
+    </head>
+
+    <body>
+        <h1>BIODATA PRIBADI MAHASISWA KELAS 3ITE1</h1>
+
+        <img src="images/syifa.jpg" alt="Bidadari cantik ini bernama Syifa">
+
+        <h2><u>Nama</u></h2>
+        <p>Syifa Syauqi Adam</p>
+
+        <h2><u>Kelas</u></h2>
+        <p>3ITE1</p>
+
+        <h2><u>Jurusan</u></h2>
+        <p>Information Technology for Economic</p>
+
+        <h3><u>Tempat & Tanggal Lahir</u></h2>
+        <p>Jakarta, 25 Desember 2001</p>
+
+        <h3><u>Hobi</u></h4>
+        <ul>
+            <li>Menonton film dan drama</li>
+            <li>Membaca buku</li>
+            <li>Makan bebek madura</li>
+        </ul>
+
+        <h3><u>Riwayat Pendidikan</u></h4>
+        <ol>
+            <li>Asia e University Malaysia (2020-2024)</li>
+            <li>CCIT-Fakultas Teknik Universitas Indonesia (2020-2022)</li>
+            <li>SMAN 113 Jakarta (2017-2020)</li>
+            <li>SMPN 81 Jakarta (2014-2017)</li>
+        </ol>
+
+        <h4><u>Media Sosial</u></h4>
+        <ul>
+            <li>
+                <p>
+                    <a href= "https://www.instagram.com/syifasyau_/"><b>Instagram</b></a>
+                </p>
+            <li>
+                <p>
+                    <a href="www.linkedin.com/in/syifasyauqiadam"><b>LinkedIn</b></a>
+                </p>
+            </li>
+            
+        </ul>
+    </body>
+
+</html>
