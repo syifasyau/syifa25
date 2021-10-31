@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Syifa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+        
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+            }
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+            .col-12 {
+            width: 100%;
+            }
+            .title {
+                background-color: #eee23a;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                font-family: 'Lemonada', cursive;
+                border: 1px solid #eee23a;
+                margin-bottom: 10px;
+            }
+            .img {
+                width: 25%;
+                float: left;
+                border-radius: 15px;
+                margin-right: 50px;
+            }
+            .content {
+            margin: 40px;
+            }
+            .text {
+                text-align: left;
+                font-family:'Poppins:wght@200', sans-serif;
+                font-size: 16px;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-12 title">
+                <h1>BIODATA MAHASISWA KELAS 3ITE1</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <img class="img" src="images/Syifa20.jpg">
+            <div class="text">
+                <p><b>Nama</b>                     : Syifa Syauqi Adam</p>
+                <p><b>Kelas</b>                    : 3ITE1</p>
+                <p><b>Jurusan </b>                 : Information Technology for Economic</p>
+                <p><b>Tempat dan Tanggal Lahir</b> : Jakarta, 25 Desember 2001</p>
+                <p><b>Riwayat Pendidikan</b>       : </p>
+                    <ol>
+                        <li>Asia e University Malaysia (2020-2024)</li>
+                        <li>CCIT-Fakultas Teknik Universitas Indonesia (2020-2022)</li>
+                        <li>SMAN 113 Jakarta (2017-2020)</li>
+                        <li>SMPN 81 Jakarta (2014-2017)</li>
+                     </ol>
+                <p><b>Media Sosial</b>             :</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://www.instagram.com/syifasyau_/"> Instagram <i class="fab fa-instagram" style="color: darkblue;"></i></a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="http://www.linkedin.com/in/syifasyauqiadam"> LinkedIn <i class="fab fa-linkedin" style="color: darkblue;"></i></a>
+                            </p>
+                        </li>
+                    </ul>
+            </div>
+        </div>    
+    </body>
+
+</html>
