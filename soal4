@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KALKULATOR SYIFA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>    
+
+    <body>
+        <h1>KALKULATOR SEDERHANA</h1>
+        <input type="text" id="my-input" />
+        <button onclick="addTodo()">RUN</button>
+    
+        <p id="my-jawaban">
+
+        </p>
+    
+        <script>
+            function addTodo() {
+                let input = document.getElementById("my-input").value
+
+                if (input == "sum,2,2") {
+                    document.getElementById("my-input").value = "4"
+                } else (input == "divide,30,3") {
+                    document.getElementById("my-input").value = "10"
+                } break;
+                
+                var hasil = document.createElement("p");
+                var texthasil = document.createTextNode(input);
+                hasil.appendChild(texthasil);
+    
+                document.getElementById("my-jawaban").appendChild(hasil)
+                document.getElementById("my-input").value = ""
+            }
+        </script>
+    
+    </body>
+</html>
