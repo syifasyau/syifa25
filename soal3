@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ARTIKEL SYIFA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+   
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .content {
+                padding: 10px 20px;
+            }
+            .judul h1 {
+                font-size: 60px;
+                font-family: 'Montserrat', sans-serif;
+                margin: 0;
+            }
+            .judul h3 {
+                font-size: 30px;
+                font-family: 'Montserrat', sans-serif;
+                margin: 3px;
+            }
+            .img {
+                float: left;
+                border-radius: 15px;
+                margin-right: 50px;;
+            }
+            .text{
+                float: right;
+            }
+            .footer{
+                border: 3px solid;
+                background-color:gold;
+                text-align: center;
+                font-size: 20px;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-12{
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="row">
+                <div class="col-12 judul">
+                    <h1>Sampai Jumpa, Nenek!</h1>
+                    <h3>Oleh : Syifa Syauqi Adam</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                <div class="col-4">
+                    <img src="https://cdn2.vectorstock.com/i/thumb-large/91/61/girl-hugging-her-grandmother-vector-35019161.jpg">
+                </div>
+                <div class="col-8 text">
+                    <p>Pernahkah kamu sesekali rindu masa-masa kecilmu? Atau mungkin kamu sering merindukan masa kecilmu di tengah kesibukan fase orang dewasa yang sekarang mulai kamu jalani?
+                    Apalagi ketika masa-masa indah kecilmu itu dihabiskan bersama orang-orang yang menyayangimu dulu namun sekarang telah tiada.Kalau iya, aku juga merasakan hal itu saat ini.</p>
+                    <p>Aku mulai merindukan masa kecilku dimana aku bisa bermain sepuasnya tanpa khawatir tentang tugas atau tanggung jawab yang harus aku kerjakan. 
+                        Namun, sebenarnya aku lebih merindukan seseorang yang ada di masa kecilku dan membuat banyak kesan mendalam tanpa aku sadari.
+                        Aku rindu dengan setiap omelannya padaku dan masakan lezatnya setiap hari raya. Dia adalah nenekku.</p>
+                    <p>Nenekku baru saja meninggalkan kami bulan Juli 2021, dua hari sebelum hari raya Idul Adha dan satu hari setelah aku dan keluargaku pindah rumah dekat dengan rumah nenek.
+                        Orangtuaku memang sengaja pindah rumah dekat nenekku agar bisa lebih dekat dengan nenek serta saudara lainnya. 
+                        Akan tetapi, nenekku jatuh sakit sekitar seminggu sebelum kepindahanku dan pergi dengan cepat saat aku baru saja merayakan rumah baruku.</p>
+                    <p>Baru saat itu, aku sadar bahwa aku telah kehilangan orang yang menyangiku dan orang yang aku sayangi. 
+                        Hahaha kalo diingat-ingat, aku sangat kesal dengan nenekku karena aku sellau dimarahi setiap pergi ke rumah nenek. Nenek memang banyak menuntut hahaha...Kalau aku belum sholat, nenek selalu marah. 
+                        Tapi nenek juga orang yang paling hebat dalam memasak. Aku selalu suka ke rumah nenek karena banyak masakan yang bisa aku makan. Nenekku memang suka sekali masak. Apalagi kalu lebaran, nenek selalu siap dengan segala masakan yang super enak (dan juga THR yang banyak hahaha)
+                        Walaupun nenek galak, nenek memang tidak pernah pelit soal uang jajan. Nenek juga suka jalan-jalan. Nenek suka bercerita tentang rencana perjalanannya ke Mesir, Turki, dan negara-negara mayoritas Islam lainnya. 
+                        Oiya, bahkan nenek sudah merencanakan akan menyusulku ketika aku berkuliah di Malaysia nanti. Yahh jadi semakin rindu aku padanya.</p>
+                    <p>Sebenarnya, masih banyak yang ingin aku ceritakan tentang nenekku kepada kalian. Tapi kalau semakin panjang, jadinya ini bukan UTS tapi sesi curhat hahaha. Baiklah kapan-kapan aku lanjutkan ceritaku yaa. See you! </p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Kunjungi aku di sini!</h2>
+                    <div class="col-4">
+                        <div class="footer">
+                        <p>
+                            <a href="https://www.instagram.com/syifasyau_/"> Instagram <i class="fab fa-instagram-square" style="color: darkblue;"></i></a>
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="footer">
+                        <p>
+                            <a href="http://www.linkedin.com/in/syifasyauqiadam"> LinkedIn <i class="fab fa-linkedin" style="color: darkblue;"></i></a>
+                        </p>
+                        </div>
+                    </div>
+            
+                    <div class="col-4">
+                        <div class="footer">
+                        <p>
+                            <a href="https://mobile.twitter.com/syifasyau_"> Twitter <i class="fab fa-twitter" style="color: darkblue;" ></i></a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
